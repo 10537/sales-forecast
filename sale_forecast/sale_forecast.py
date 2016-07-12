@@ -427,7 +427,7 @@ class product_product(models.Model):
                     if to_date:
                         domain.append(('date_expected', '<=', to_date))
                     return domain
-            return super(product_product,self)._get_domain_dates()
+        return super(product_product,self)._get_domain_dates()
 
 class forecast_period(models.Model):
 
