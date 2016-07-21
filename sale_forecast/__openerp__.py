@@ -11,7 +11,8 @@ Provides ability to forecast the quantity for the products and based upon the ca
 contribution by : purvesh.parmar@bistasolutions.com
 
     """,
-    'author': '',
+    'author': 'Bista Solutions',
+    'webiste': 'www.bistasolutions.com',
     'depends': ['sale', 'stock','crm','procurement_jit','purchase','mrp'],
     'data': [
         'sale_forecast_view.xml',
